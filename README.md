@@ -43,13 +43,15 @@ cd jellyfin-metrics-score
 
 ### Configuration
 
-Before running the script, make sure to configure the following settings in the script:
+Before running the script, make sure to configure the following settings inside the file jellyfin_config.py:
 
 1. `JELLYFIN_SERVER`: The base URL of your Jellyfin server (e.g., `http://localhost:8096`).
 2. `API_KEY`: Your Jellyfin API key.
 3. `USER_ID`: The user ID for the account you're using to check the metrics.
 
 These values are configured in the `jellyfin_config.py` file, which should be placed in the same directory as the script.
+
+Next modify the jellyfin_metric_score.py to point to the url/ip address of your jellyfin server.
 
 ### Running the Script
 
